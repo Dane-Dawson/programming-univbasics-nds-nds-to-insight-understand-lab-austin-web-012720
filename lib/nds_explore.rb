@@ -8,7 +8,7 @@ end
 
 def print_first_directors_movie_titles
 row_index = 0 
-while row_index < directors_database[0][0].count do
+while row_index < directors_database[0][0][0].count do
   puts "#{directors_database[:name][:movies][:title][row_index]}"
   row_index += 1
 end
