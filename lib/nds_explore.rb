@@ -8,9 +8,10 @@ end
 
 def print_first_directors_movie_titles
 row_index = 0 
-while row_index < directors_database.length do
-  pp "\t#{directors_database[:name=>"Stephen Spielberg"][:movies][title][row_index]}"
+while row_index < directors_database[:name][:movies][:title].length do
+  pp "\t#{directors_database[:name][:movies][title][row_index]}"
   row_index += 1
 end
 end
 
+#name>movies>title
