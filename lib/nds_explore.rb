@@ -9,7 +9,7 @@ end
 def print_first_directors_movie_titles
 row_index = 0 
 while row_index < directors_database[:name][:movies][:title].length do
-  puts "\t#{directors_database[:name][:movies][title][row_index]}"
+  puts "\t#{directors_database[:name][:movies][:title][row_index]}"
   row_index += 1
 end
 end
