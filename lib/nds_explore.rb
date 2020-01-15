@@ -13,5 +13,3 @@ while row_index < directors_database[0][:movies].count do
   row_index += 1
 end
 end
-
-#name>movies>title
