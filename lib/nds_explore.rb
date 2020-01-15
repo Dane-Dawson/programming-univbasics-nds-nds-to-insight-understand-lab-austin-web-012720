@@ -14,4 +14,3 @@ while row_index < directors_database.length do
 end
 end
 
-
