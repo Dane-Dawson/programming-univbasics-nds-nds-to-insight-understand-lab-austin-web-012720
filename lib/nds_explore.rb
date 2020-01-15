@@ -9,7 +9,7 @@ end
 def print_first_directors_movie_titles
 row = 0 
 while row < directors_database.length do
-  puts vm[row_index]
+  puts directors_database[row_index]
   row_index += 1
 end
 end
